@@ -1,0 +1,75 @@
+
+body{
+    background-color: white;
+}
+
+header div{
+    text-align: center;
+}
+
+nav ul{
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 1em;
+
+    padding: 0%;
+
+    
+}
+
+nav ul li{
+    list-style-type: none;
+    
+}
+
+.Info-Section{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+footer{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+footer div ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div ul li{
+
+    list-style-type: none;
+
+}
+
+footer div{
+    text-align: center;
+}
+
+.Info-Section.About-Me div{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+.Info-Section .Work{
+    text-align: center;
+    margin-top: 4vh;
+}
+
+
+.Main-Image{
+    height: 200px;
+}
+
+.Small-Image-Card{
+    height: 200px;
+    width: 300px;
+    margin: 10;
+}
